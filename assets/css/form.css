@@ -1,0 +1,135 @@
+a { text-decoration: none; color:#334d4d; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus { text-decoration: underline; }
+a:hover, a:active { text-decoration: none; }
+
+body {
+    background-image: url("pic04.jpg");
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+  
+}
+
+.button {
+    background-color: #b3cccc;
+    border: 2px solid #555555;
+    color: black;
+    padding: 10px 50px;
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+
+	}
+	
+.navbutton{
+	background:transparent;
+	font-size:16px;
+	padding:10px 30px;
+cursor: pointer;
+	border-color:transparent;
+	color:#eee;
+ text-decoration: none;
+width:-100px;
+
+}	
+.navbutton:hover{
+	text-decoration:underline;
+}
+.navbutton:focus { text-decoration: none; 
+outline:none;}
+
+.navbutton1{
+	background:transparent;
+	font-size:16px;
+	padding:10px 30px;
+cursor: pointer;
+	border-color:transparent;
+	color:#eee;
+ text-decoration: none;
+width:210px;	
+text-align:right;
+margin-left:100px;
+}	
+
+.navbutton1:hover{
+	text-decoration:underline;
+}
+.navbutton1:focus { text-decoration: none; 
+outline:none;}
+	input[type=text] {
+	border: 1px solid #b3b3b3;
+    border-radius: 4px;
+	font-family: "Courier New", monospace;
+	font-size:18px;
+	}
+	
+	input[type=password] {
+		 border: 1px solid #b3b3b3;
+    border-radius: 4px;
+	
+	}
+	input[type=number] {
+		 border: 1px solid #b3b3b3;
+		 font-family: "Courier New", monospace;
+		 font-size:18px;
+    border-radius: 4px;
+	
+	}
+	input[type=year] {
+		 border: 1px solid #b3b3b3;
+		 font-family: "Courier New", monospace;
+		 font-size:18px;
+    border-radius: 4px;
+	
+	}
+	input[type=date] {
+		 border: 1px solid #b3b3b3;
+		 font-family: "Courier New", monospace;
+		 font-size:18px;
+    border-radius: 4px;
+	
+	}
+	textarea {
+		 border: 1px solid #b3b3b3;
+		 font-family: "Courier New", monospace;
+		 font-size:18px;
+    border-radius: 4px;
+	
+	}
+	
+	select {
+		 border: 1px solid #b3b3b3;
+		 font-family: "Courier New", monospace;
+		 font-size:18px;
+    border-radius: 4px;
+	
+	}
+	
+	form{
+		 border: 1px solid #b3b3b3;
+		 font-family: "Courier New", monospace;
+		 font-size:18px;
+    border-radius: 4px;
+	
+	}
+	.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#myDiv img
+{
+  width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
